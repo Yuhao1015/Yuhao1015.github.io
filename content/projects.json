@@ -1,0 +1,90 @@
+{
+  "sectionTitle": "把想法，做成可以体验的作品。",
+  "sectionDescription": "从多 Agent 协作，到日常生活中的产品体验。",
+  "profile": {
+    "name": "Yuhao Xie",
+    "headline": ["我把关于 AI 的想法，", "做成可以上手的东西。"],
+    "intro": "关注两件事：让多个 AI 像团队一样协作，以及让 AI 自然地进入日常产品。这里的每个项目，都从一个具体的问题开始，最后变成一段可以体验的演示。",
+    "focus": ["多 Agent 协作", "AI 产品体验", "交互与可视化"],
+    "tools": ["Python · TypeScript", "微信小程序", "异步任务编排"],
+    "email": "xieyuhao08@gmail.com",
+    "github": "https://github.com/Yuhao1015"
+  },
+  "projects": [
+    {
+      "id": "agent-hub",
+      "displayOrder": 1,
+      "name": "Agent Hub",
+      "category": "多 Agent 协作平台",
+      "headline": "让多个 AI，像团队一样协作。",
+      "summary": "从一句目标出发，拆解任务、分配 Agent、接力执行，在像素办公室里看见整个协作过程。",
+      "description": "Agent Hub 将目标拆解为有依赖关系的任务，按任务类型与模型能力组织多个 Agent 协作。通过像素办公室、任务依赖图和实时运行日志，查看任务进度与结果，并提供共享上下文、失败降级、断点恢复和成本记录。",
+      "highlights": [
+        {
+          "title": "从目标到执行计划",
+          "description": "先澄清目标，再拆解任务；按依赖关系安排执行，可并行的任务同时推进。"
+        },
+        {
+          "title": "看得见的 AI 协作",
+          "description": "用像素办公室、任务依赖图与实时运行日志呈现执行过程，支持查看历史运行。"
+        },
+        {
+          "title": "让协作可以持续",
+          "description": "通过共享黑板传递上下文，配合失败降级、断点恢复与成本记录管理执行过程。"
+        }
+      ],
+      "tags": ["Multi-Agent", "Python", "异步任务编排", "可视化工作流"],
+      "video": "assets/videos/agenthub-demo-38s.mp4",
+      "videoDuration": "38 秒",
+      "videoLoop": "assets/videos/agenthub-loop-10s.mp4",
+      "previewDuration": "10 秒",
+      "poster": "assets/posters/agenthub-demo.png",
+      "loopPoster": "assets/posters/agenthub-loop.webp",
+      "videoOutline": [
+        "输入一个具体目标，展示经理澄清与任务计划。",
+        "展示任务依赖图，以及多个 Agent 开始协作的画面。",
+        "切换任务查看执行日志，并展示最终生成的实际成果。"
+      ]
+    },
+    {
+      "id": "jianshen-daren",
+      "displayOrder": 2,
+      "name": "健身达人",
+      "category": "训练与饮食记录小程序",
+      "headline": "让每一次坚持，都看得见。",
+      "summary": "把训练记录、组间休息、练后餐推荐与成长反馈，放进一个轻量的微信小程序。",
+      "description": "围绕一次训练前后的使用过程，健身达人将训练计划、重量与次数记录、组间休息和饮食记录串联起来。通过热力图、力量曲线、成就徽章与打卡海报呈现积累，并根据训练部位、体重与目标对练后餐进行规则评分推荐。",
+      "highlights": [
+        {
+          "title": "训练过程更连贯",
+          "description": "沿用上次训练数据，记录每组重量与次数，完成后进入休息倒计时，并反馈个人纪录。"
+        },
+        {
+          "title": "练完，也照顾好饮食",
+          "description": "记录日常饮食，结合训练与个人目标筛选练后餐，支持卡片翻面、收藏与记入今日饮食。"
+        },
+        {
+          "title": "给坚持具体的反馈",
+          "description": "用训练热力图、力量进步曲线、徽章与邮票风格打卡海报，展示每一步积累。"
+        }
+      ],
+      "tags": ["微信小程序", "TypeScript", "本地优先", "产品交互"],
+      "video": "assets/videos/fitness-demo-21s.mp4",
+      "videoDuration": "21 秒",
+      "videoPreview": "assets/videos/fitness-preview-10s.mp4",
+      "previewDuration": "10 秒",
+      "poster": "assets/posters/fitness-demo.webp",
+      "previewPoster": "assets/posters/fitness-preview.webp",
+      "theme": {
+        "accent": "#2f6b4f",
+        "accentInk": "#285c43",
+        "mediaBackground": "#dde7d7"
+      },
+      "videoOutline": [
+        "从今日训练进入专注模式，沿用上次数据并完成一组训练。",
+        "展示组间休息、纪录反馈，再浏览与收藏练后餐。",
+        "展示成长热力图、成就徽章，并生成一张打卡海报。"
+      ]
+    }
+  ]
+}
